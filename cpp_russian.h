@@ -2,10 +2,10 @@
 #include <cstddef>
 #include <cstdio>
 #include <fstream>
-/////////////////////////////
-#define ПИ 3.14159265359L
-#define Е 2.71828182846L
-/////////////////////////////
+#include <cmath>
+////////////////////////////
+setlocale(0, "")
+////////////////////////////
 #define при_запуске int main(int агрументов_номер, char *аргументы[])
 #define выполнить {
 #define конецстр std::endl
@@ -29,6 +29,8 @@
 #define ДА true
 #define НЕТ false
 #define НИЧЕГО NULL
+#define ПИ 3.14159265359L
+#define Е 2.71828182846L
 #define байт byte
 #define короткое short
 #define целое int
@@ -73,3 +75,6 @@
 #define подключить #include
 #define константа const
 #define макрос #define
+
+#define __CPP_CODE__ ////////////////////////////
+#define __END_CPP_CODE__ ////////////////////////////
