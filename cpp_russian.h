@@ -64,7 +64,7 @@ setlocale(0, "")
 #define открытая public
 #define защищённая protected
 #define закрытая private
- #define открыто public
+#define открыто public
 #define защищено protected
 #define закрыто private
 #define перейти_к goto
