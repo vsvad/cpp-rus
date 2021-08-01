@@ -13,8 +13,8 @@ setlocale(0, "")
 #define конец_выполнить }
 #define поток ios_base
 #define файл fstream
-#define файл_чт ifstream
-#define файл_зп ofstream
+#define файл_чт std::ifstream
+#define файл_зп std::ofstream
 #define вывод std::cout <<
 #define фмвывод printf
 #define с_аргументами ,
